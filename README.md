@@ -1,4 +1,4 @@
-# NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL
+## NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
