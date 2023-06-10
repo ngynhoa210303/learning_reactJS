@@ -1,3 +1,4 @@
+# NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,8 +70,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### NOTE 1: B1 `npm install react-scripts`  -- cài thư viện sass thay thế css-> scss
-`npm i --save sass`
+### 1. NOTE 1: B1 `npm install react-scripts`--> `npm i --save sass` -- cài thư viện sass thay thế css-> scss
 - Lưu sass 
 - Ctrl C -> y -> để chạy lại chương trình 
-
+### 2. NOTE 2 : COMPONENTS có bao nhiêu loại cách sử dụng 
+- Khái niệm JSX chi tiết tại: https://legacy.reactjs.org/docs/introducing-jsx.html
+- Các cách export class (2) chi tiết tại :https://stackoverflow.com/questions/33611812/export-const-vs-export-default-in-es6
