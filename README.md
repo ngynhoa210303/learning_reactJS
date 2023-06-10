@@ -69,8 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### NOTE 1: B1 npm install react-scripts  -- cài thư viện sass thay thế css-> scss
-npm i --save sass 
+### NOTE 1: B1 `npm install react-scripts`  -- cài thư viện sass thay thế css-> scss
+`npm i --save sass`
 - Lưu sass 
 - Ctrl C -> y -> để chạy lại chương trình 
 
