@@ -1,8 +1,7 @@
-## NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL
+
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## ** NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL
 ## Available Scripts
 
 In the project directory, you can run:
