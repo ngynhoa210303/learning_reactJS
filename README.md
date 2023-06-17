@@ -75,3 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 2. NOTE 2 : COMPONENTS có bao nhiêu loại cách sử dụng 
 - Khái niệm JSX chi tiết tại: https://legacy.reactjs.org/docs/introducing-jsx.html
 - Các cách export class (2) chi tiết tại :https://stackoverflow.com/questions/33611812/export-const-vs-export-default-in-es6
+### 3. NOTE 3: DOM / DOM EVENT..
+- HTML DOM: https://www.w3schools.com/js/js_htmldom.asp
+- DOM Events:https://en.wikipedia.org/wiki/DOM_event
