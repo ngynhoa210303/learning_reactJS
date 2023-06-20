@@ -1,7 +1,7 @@
+
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## **NOTE TỪNG BUỔI CT BÊN DƯỚI PHẦN INSTALL**
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 1. NOTE 1: B1 `npm install react-scripts`--> `npm i --save sass` -- cài thư viện sass thay thế css-> scss
+- Lưu sass 
+- Ctrl C -> y -> để chạy lại chương trình 
+### 2. NOTE 2 : COMPONENTS có bao nhiêu loại cách sử dụng 
+- Khái niệm JSX chi tiết tại: https://legacy.reactjs.org/docs/introducing-jsx.html
+- Các cách export class (2) chi tiết tại :https://stackoverflow.com/questions/33611812/export-const-vs-export-default-in-es6
+### 3. NOTE 3: DOM / DOM EVENT..
+- HTML DOM: https://www.w3schools.com/js/js_htmldom.asp
+- DOM Events:https://en.wikipedia.org/wiki/DOM_event
+### 4. NOTE 4: Quan hệ cha con kế thừa - Cách sử dụng Props
+- Destructuring assignment Array/Object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
