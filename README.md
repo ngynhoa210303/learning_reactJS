@@ -78,3 +78,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 3. NOTE 3: DOM / DOM EVENT..
 - HTML DOM: https://www.w3schools.com/js/js_htmldom.asp
 - DOM Events:https://en.wikipedia.org/wiki/DOM_event
+### 4. NOTE 4: Quan hệ cha con kế thừa - Cách sử dụng Props
+- Destructuring assignment Array/Object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
