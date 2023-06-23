@@ -84,3 +84,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Dấu chấm Spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 ### 6: NOTE 9: Css trong react
 - Css: https://legacy.reactjs.org/docs/faq-styling.html
+### 7: NOTE 10: Sử dụng Lifecycle Methods với React : 
+https://reactjs.org/docs/react-compon...
+- SD: https://projects.wojtekmaj.pl/react-l...
