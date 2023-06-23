@@ -1,13 +1,13 @@
 // import Form from "../components/Form";
 // import DOMEvent from "../components/DOMEvent";
 // import MyConponent from "../components/MyConponent";
-// import NestingComponent from "../components/quan_he_cha_con_reactjs/NestingComponent";
-// import Form from "../components/render_nhieu_data_voi_PROPS/Form";
-// import NestingComponent from "../components/render_nhieu_data_voi_PROPS/NestingComponent";
-import Form from "../components/stateless_statefullComponent/Form";
-
+// import NestingComponent from "../components/B4_Quan_he_cha_con_reactjs/NestingComponent";
+// import Form from "../components/B5_Render_nhieu_data_voi_PROPS/Form";
+// import NestingComponent from "../components/B5_Render_nhieu_data_voi_PROPS/NestingComponent";
+// import Form from "../components/B6_Stateless_StatefullComponent/Form";
+// import Form from "../components/B7_ConditionalOutput/Form";
+import Form from "../components/B8_Split_Components_FCAS_Props/Form";
 import "./App.scss";
-
 /**
  *  2 loai component chính class component / function component( function, arrow function )
  *
@@ -32,9 +32,13 @@ const App = () => {
         {/* B4: Quan hệ cha con của reactjs */}
         {/* <NestingComponent /> */}
         {/* B5: Renders Nhiều Data với Props */}
-        {/* <NestingComponent /> */}
-        {/* <Form /> */}
+        {/* <NestingComponent />
+        <Form /> */}
         {/* B6: Function component(stateless-statefull) */}
+        {/* <Form /> */}
+        {/* B7: Điều kiện */}
+        {/* <Form /> */}
+        {/* B8: Split component */}
         <Form />
       </header>
     </div>
