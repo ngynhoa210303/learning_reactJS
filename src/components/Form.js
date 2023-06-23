@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Form.scss";
 class Form extends React.Component {
   state = {
     firstName: "",

@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/NestingB8.scss";
 class NestingComponent extends React.Component {
   //Conditional (Câu điều kiện), ví dụ như If/Else là một công cụ được sử dụng rất nhiều với React. Nếu như Vue và Angular có v-hide/show, ng-hide/show thì React có cách render "điều kiện" riêng của nó.
   state = {
@@ -21,7 +22,12 @@ class NestingComponent extends React.Component {
         {/* C2: */}
         {showJob === false ? (
           <div>
-            <button onClick={() => this.handleShow()}>Show</button>
+            <button
+              onClick={() => this.handleShow()}
+              style={{ backgroundColor: "pink", color: "white" }}
+            >
+              Show
+            </button>
           </div>
         ) : (
           <>
@@ -31,7 +37,10 @@ class NestingComponent extends React.Component {
                   <div key={item.id}>
                     {item.titleJob} - {item.salary}$ <></>
                     <span>
-                      <button onClick={() => this.handleOnclickDelete(item)}>
+                      <button
+                        onClick={() => this.handleOnclickDelete(item)}
+                        className="btn-submit"
+                      >
                         x
                       </button>
                     </span>
