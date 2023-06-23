@@ -82,3 +82,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Destructuring assignment Array/Object: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 ### 5: NOTE 8: Dấu ...
 - Dấu chấm Spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+### 6: NOTE 9: Css trong react
+- Css: https://legacy.reactjs.org/docs/faq-styling.html
