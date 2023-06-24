@@ -7,10 +7,14 @@
 // import Form from "../components/B6_Stateless_StatefullComponent/Form";
 // import Form from "../components/B7_ConditionalOutput/Form";
 // import Form from "../components/B8_Split_Components_FCAS_Props/Form";
+// import { BrowserRouter } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import ListToDo from "../components/B11_CRUD_XayDungAppToDo/ListToDo";
+// import ListToDo from "../components/B11_CRUD_XayDungAppToDo/ListToDo";
+
+import RouteH from "../routes/Route";
 import "./App.scss";
+
 /**
  *  2 loai component chính class component / function component( function, arrow function )
  *
@@ -22,7 +26,7 @@ import "./App.scss";
 const App = () => {
   //function component
   return (
-    //tra ve 1 khoi HTML
+    // {/* //tra ve 1 khoi HTML */}
     <div className="App">
       <header className="App-header">
         {/* sdung JSX co the viet duoc code js phia trong html
@@ -44,7 +48,9 @@ const App = () => {
         {/* B8/9/10: Split component-Add Validate-Delete-React Lifecycle Methods */}
         {/* <Form /> */}
         {/* B11: App To Do CRUD */}
-        <ListToDo />
+        {/* <ListToDo /> */}
+        {/* B12: Route */}
+        <RouteH />
       </header>
 
       <ToastContainer
@@ -59,6 +65,7 @@ const App = () => {
         pauseOnHover
       />
     </div>
+    // </BrowserRouter>
   );
 };
 
