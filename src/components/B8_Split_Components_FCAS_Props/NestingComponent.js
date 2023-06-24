@@ -12,6 +12,19 @@ class NestingComponent extends React.Component {
     console.log(">>> handleOnclickDelete: ", job);
     this.props.deleteAJob(job);
   };
+  //2 component cơ bản thể hiện vòng đời của react
+  componentDidUpdate(prevProps, prevState) {
+    console.log(
+      ">> run didupdate: ",
+      "prev state: ",
+      prevState,
+      " current state: ",
+      this.state
+    );
+  }
+  componentDidMount = () => {
+    console.log(">>> run componentDidMount");
+  };
   render() {
     let { arrJobs } = this.props;
     let { showJob } = this.state;
