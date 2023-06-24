@@ -87,8 +87,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 7: NOTE 10: Sử dụng Lifecycle Methods với React : 
 https://reactjs.org/docs/react-compon...
 - SD: https://projects.wojtekmaj.pl/react-l...
+- Install: npm install --save-exact react-toastify@8.0.2
 - React toastify: https://fkhadra.github.io/react-toastify/introduction/#the-playground
 ### 8: NOTE 11: CRUD
 - Check An Empty Object: https://stackoverflow.com/questions/6...
 - Change value of object in an Array : https://stackoverflow.com/questions/4...
 - JS Array Find index: https://developer.mozilla.org/en-US/d...
+### 9: NOTE 12: ROUTE:
+- INSTALL: npm install --save-exact react-router-dom@5.3.0
+### 10: NOTE 13: HOC 
+- JS Random Color:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+### 11: NOTE 14: Cài đặt và sử dụng Axios:
+- Cài đặt Axios: npm install --save-exact axios@0.21.4
+- Fake Data API: https://reqres.in/
+
