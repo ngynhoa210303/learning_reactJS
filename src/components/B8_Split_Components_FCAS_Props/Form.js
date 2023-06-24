@@ -11,7 +11,7 @@ class Form extends React.Component {
   };
 
   addNewJob = (job) => {
-    console.log("check job from parent: ", job);
+    // console.log("check job from parent: ", job);
     let jobhah = this.state.arrJobs;
     jobhah.push(job);
     this.setState({

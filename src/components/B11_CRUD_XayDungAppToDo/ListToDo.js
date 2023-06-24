@@ -2,6 +2,7 @@ import React from "react";
 import "./ListToDo.scss";
 import { toast } from "react-toastify";
 import AddToDo from "./AddToDo";
+import Color from "../B13_HOC/Color";
 class ListToDo extends React.Component {
   state = {
     listTodos: [
@@ -24,7 +25,7 @@ class ListToDo extends React.Component {
   };
   //delete
   handleDeleteTodo = (todo) => {
-    console.log("hah", todo);
+    // console.log("hah", todo);
     let currentTodos = this.state.listTodos;
     currentTodos = currentTodos.filter((item) => item.id !== todo.id);
     this.setState({ listTodos: currentTodos });
@@ -68,7 +69,7 @@ class ListToDo extends React.Component {
   render() {
     let { listTodos, editTodo } = this.state;
     let isEmptyObj = Object.keys(editTodo).length === 0;
-    console.log(">>> check empty object: ", isEmptyObj);
+    // console.log(">>> check empty object: ", isEmptyObj);
     return (
       //   <>
       <div className="list-todo-container">
@@ -127,4 +128,4 @@ class ListToDo extends React.Component {
   }
 }
 
-export default ListToDo;
+export default Color(ListToDo);

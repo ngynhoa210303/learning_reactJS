@@ -15,6 +15,9 @@ class NavTib extends React.Component {
         <NavLink to="/about" activeClassName="active">
           About
         </NavLink>
+        <NavLink to="/user" activeClassName="active">
+          User
+        </NavLink>
       </div>
     );
   }
