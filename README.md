@@ -95,5 +95,9 @@ https://reactjs.org/docs/react-compon...
 - JS Array Find index: https://developer.mozilla.org/en-US/d...
 ### 9: NOTE 12: ROUTE:
 - INSTALL: npm install --save-exact react-router-dom@5.3.0
-### 10: NOTE 13:HOCHOC
+### 10: NOTE 13: HOC 
 - JS Random Color:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+### 11: NOTE 14: Cài đặt và sử dụng Axios:
+- Cài đặt Axios: npm install --save-exact axios@0.21.4
+- Fake Data API: https://reqres.in/
+
