@@ -100,4 +100,7 @@ https://reactjs.org/docs/react-compon...
 ### 11: NOTE 14: Cài đặt và sử dụng Axios:
 - Cài đặt Axios: npm install --save-exact axios@0.21.4
 - Fake Data API: https://reqres.in/
+### 12: NOTE 15: REDUX:
+- Cài đặt Redux: npm install --save-exact redux@4.1.1 react-redux@7.2.5
+- Redux Action: https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers
 
