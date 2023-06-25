@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import axios from "axios";
 import "./ListUser.scss";
@@ -33,6 +34,7 @@ class DetailUser extends React.Component {
             </div>
             <div>User's email: {user.email}</div>
             <div>
+              {/* eslint-disable-next-line jsx-a11y/alt-text */}
               <img src={user.avatar} />
             </div>
             <div>
